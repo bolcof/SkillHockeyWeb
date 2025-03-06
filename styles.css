@@ -1,0 +1,22 @@
+/* ページ全体の余白・スクロール防止 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* 全画面背景画像 */
+.fullscreen-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/TisserImage.png'); /* 画像のパスを指定 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
