@@ -1,4 +1,4 @@
-/* 余白・スクロール調整 */
+/* 余白をなくす */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +8,7 @@
 /* 画像のスタイル */
 .fullscreen-image {
     width: 100%;
-    height: auto; /* 画像の高さを自動調整 */
+    height: auto;
     display: block;
+    object-fit: cover; /* 画像の比率を維持しつつトリミング */
 }
